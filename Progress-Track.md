@@ -3,7 +3,6 @@
 ## B E G I N N E R
 
 - [ ] Variables in Python
-- [ ] Variables in Python
 - [ ] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
