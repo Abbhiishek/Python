@@ -11,6 +11,10 @@ print(
                                                                        7.EXcercise 02
                                                                        8.Input Functions
                                                                        9.comments
+                                                                       10.EXcercise 03
+                                                                       11.Variables
+                                                                       12.EXcercise 04
+                                                                       13.Brand Name Generator - Project I
 
 
     """
