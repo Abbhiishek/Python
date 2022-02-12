@@ -21,3 +21,32 @@ print(
 
     """
 )
+print("                                                     This is a Len Function.")
+
+# This is a print functions (predefined functions! )
+print('''
+
+Len function is a  (predefined functions! )
+
+
+len is the function name and inside the paranstes we pass the thing of which we want to find the length.
+
+
+LIKE : len("hello")  ---> return : 5 
+
+
+
+
+
+SomeThing to Ponder:
+   - when we pass a int value in the len function its shows us a typeError 
+   - Its because len() funcion don't works with int datatype
+
+   - what's the solutions ?
+
+
+      lets look into it  !
+
+
+''')
+###########################################################################################################################################################
