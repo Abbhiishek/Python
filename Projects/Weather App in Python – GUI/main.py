@@ -2,6 +2,9 @@ from tkinter import *
 import requests
 import json
 from datetime import datetime
+import os 
+from dotenv import load_dotenv
+load_dotenv()
  
 #Initialize Window
  
@@ -25,7 +28,7 @@ city_value = StringVar()
  
 def showWeather():
     #Enter you api key, copies from the OpenWeatherMap dashboard
-    api_key = "5efed58e61a621303f7aeb90e303284b"  #sample API
+    api_key = os.getenv('OpenWeatherMap_Token')#"5efed58e61a621303f7aeb90e303284b"  #sample API
  
     # Get city name from user from the input field (later in the code)
     city_name=city_value.get()
