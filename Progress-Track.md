@@ -2,17 +2,17 @@
 
 ## B E G I N N E R
 
-- [ ] Variables in Python
+- [X] Variables in Python
 - [ ] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-- [ ] Input and Print Functions
+- [X] Input and Print Functions
 - [ ] Variable Naming Rules
-- [ ] Mathematical Operations in Python
-- [ ] DataTypes
-- [ ] Converting types
-- [ ] Conditionals IF/ELIF/ELSE
-- [ ] Logical Operators
+- [X] Mathematical Operations in Python
+- [X] DataTypes
+- [X] Converting types
+- [X] Conditionals IF/ELIF/ELSE
+- [X] Logical Operators
 - [ ] Randomisation
 - [ ] Error Handling
 - [ ] Functions
