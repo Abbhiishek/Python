@@ -24,3 +24,37 @@ You have 12410 days, 1768 weeks, and 408 months left.
 
 #                                    Write your code below this line 👇
 
+
+print('''
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+age=int(age)
+rem_age= 90 - age
+days=rem_age*365
+weeks=rem_age*52
+months=rem_age*12
+
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
+
+
+
+''')
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+age=int(age)
+rem_age= 90 - age
+days=rem_age*365
+weeks=rem_age*52
+months=rem_age*12
+
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
