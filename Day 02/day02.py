@@ -15,38 +15,14 @@ print(
                                                                        9.round() function 
                                                                        10.F String
                                                                        11.Exercise 03
-                                                                       12.TIP CALCULATOR - Project I
+                                                                       12.TIP CALCULATOR - Project II
                                                     
 
 
     """
 )
-print("                                                     This is a Len Function.")
-
-# This is a print functions (predefined functions! )
-print('''
-
-Len function is a  (predefined functions! )
-
-
-len is the function name and inside the paranstes we pass the thing of which we want to find the length.
-
-
-LIKE : len("hello")  ---> return : 5 
 
 
 
-
-
-SomeThing to Ponder:
-   - when we pass a int value in the len function its shows us a typeError 
-   - Its because len() funcion don't works with int datatype
-
-   - what's the solutions ?
-
-
-      lets look into it  !
-
-
-''')
-###########################################################################################################################################################
+# From Now on i will only submit the project code and exercise code to github , 
+# Instead of which i will upload hand written notes and other notes for refernence
