@@ -1,0 +1,3 @@
+Request: to fetch data from API
+Tkinter: to make our Weather app GUI (Graphical User Interface) based.
+DateTime: to change the time from API to a different format
