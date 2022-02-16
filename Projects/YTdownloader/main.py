@@ -20,8 +20,8 @@ class YouTubeDownloder:
         self.streamNo = 1
         for stream in self.youtube.streams:
             print(
-                "{0} => resolution:{1}/fps:{2}/type:{3}".format(
-                    self.streamNo, stream.resolution, stream.fps, stream.type
+                "{0} => resolution:{1} // type:{2}".format(
+                    self.streamNo, stream.resolution,stream.type
                 )
             )
             self.streamNo += 1
