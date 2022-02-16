@@ -18,10 +18,10 @@ class YouTubeDownloder:
 
     def showStreams(self):
         self.streamNo = 1
-        for stream in self.youtube.streams:
+        for stream in self.youtube.streams.filter(file_extension='mp4'):
             print(
-                "{0} => resolution:{1} // type:{2}".format(
-                    self.streamNo, stream.resolution,stream.type
+                "{0} => resolution:{1} // type:{2} // fps:{3}".format(
+                    self.streamNo, stream.resolution,stream.type,stream.fps
                 )
             )
             self.streamNo += 1
