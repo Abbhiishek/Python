@@ -3,31 +3,53 @@ from time import *
 
 
 print('''
-codingrooms.com assignments EXcercise 02
-Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
+codingrooms.com assignments EXcercise 03
+💪This is a Difficult Challenge 💪
+Instructions
+Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
 
-It should tell them the interpretation of their BMI based on the BMI value.
+https://www.youtube.com/watch?v=xX96xng7sAE
 
-Under 18.5 they are underweight
-Over 18.5 but below 25 they have a normal weight
-Over 25 but below 30 they are slightly overweight
-Over 30 but below 35 they are obese
-Above 35 they are clinically obese.
+This is how you work out whether if a particular year is a leap year.
 
-Warning you should round the result to the nearest whole number. The interpretation message needs to include the words in bold from the interpretations above. e.g. underweight, normal weight, overweight, obese, clinically obese.
+on every year that is evenly divisible by 4 
 
-Example Input
-weight = 85
-height = 1.75
-Example Output
-85 ÷ (1.75 x 1.75) = 27.755102040816325
-Your BMI is 28, you are slightly overweight.
+**except** every year that is evenly divisible by 100 
 
+**unless** the year is also evenly divisible by 400
+
+e.g. The year 2000:
+
+2000 ÷ 4 = 500 (Leap)
+
+2000 ÷ 100 = 20 (Not Leap)
+
+2000 ÷ 400 = 5 (Leap!)
+
+So the year 2000 is a leap year.
+
+But the year 2100 is not a leap year because:
+
+2100 ÷ 4 = 525 (Leap)
+
+2100 ÷ 100 = 21 (Not Leap)
+
+2100 ÷ 400 = 5.25 (Not Leap)
+
+Warning your output should match the Example Output format exactly, even the positions of the commas and full stops.
+
+Example Input 1
+2400
+Example Output 1
+Leap year.
+Example Input 2
+1989
+Example Output 2
+Not leap year.
 
 
 # 🚨 Don't change the code below 👇
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
+year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
@@ -40,44 +62,40 @@ weight = float(input("enter your weight in kg: "))
 print('''
 
 # 🚨 Don't change the code below 👇
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
+year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
 
-bmi=round(weight/(height**2),1)
-if bmi<18.5:
-    print(f"Your BMI is {bmi}, you are underweight.")
-elif bmi<25:
-    print(f"Your BMI is {bmi}, you are underweight.")
-elif bmi<30:
-    print(f"Your BMI is {bmi}, you are slightly overweight.")
-elif bmi<35:
-    print(f"Your BMI is {bmi}, you are obese.")
-else:
-    print(f"Your BMI is {bmi}, you are clinically obese.")
+
+if year % 4 == 0:
+    if year % 100 :
+        if year % 400 == 0:
+            print("Leap year.")
+        else:
+            print("Not leap year.")
+    else:
+        print("Leap year.")
 
 
 Lets check the program 
 
 ''')
 sleep(2)
+
 # 🚨 Don't change the code below 👇
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
+year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
 
-bmi=round(weight/(height**2))
-if bmi<18.5:
-    print(f"Your BMI is {bmi}, you are underweight.")
-elif bmi<25:
-    print(f"Your BMI is {bmi}, you have a normal weight.")
-elif bmi<30:
-    print(f"Your BMI is {bmi}, you are slightly overweight.")
-elif bmi<35:
-    print(f"Your BMI is {bmi}, you are obese.")
-else:
-    print(f"Your BMI is {bmi}, you are clinically obese.")
+
+if year % 4 == 0:
+    if year % 100 :
+        if year % 400 == 0:
+            print("Leap year.")
+        else:
+            print("Not leap year.")
+    else:
+        print("Leap year.")
+
