@@ -6,7 +6,7 @@ import pyperclip
 #Initialize Window
  
 root =Tk()
-root.geometry("400x400") #size of the window by default
+root.geometry("1920x1080") #size of the window by default
  
 #title of our window
 root.title("Random Password Generator")
@@ -35,14 +35,14 @@ def copyPass():
 pass_head = Label(root, text = 'Password Length', font = 'arial 12 bold').pack(pady=10) #to generate label heading
  
 pass_len = IntVar() #integer variable to store the input of length of the password wanted
-length = Spinbox(root, from_ = 4, to_ = 32 , textvariable = pass_len , width = 24, font='arial 16').pack()
+length = Spinbox(root, from_ = 4, to_ = 32 , textvariable = pass_len , width = 100, font='arial 16').pack()
  
 #Generate password button
  
 Button(root, command = randPassGen, text = "Generate Password", font="Arial 10", bg='lightblue', fg='black', activebackground="teal", padx=5, pady=5 ).pack(pady= 20)
  
 pass_label = Label(root, text = 'Random Generated Password', font = 'arial 12 bold').pack(pady="30 10")
-Entry(root , textvariable = output_pass, width = 24, font='arial 16').pack()
+Entry(root , textvariable = output_pass, width = 100, font='arial 16').pack()
  
 #Copy to clipboard button
  
