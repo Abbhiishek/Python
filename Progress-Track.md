@@ -13,19 +13,19 @@
 - [X] Converting types
 - [X] Conditionals IF/ELIF/ELSE
 - [X] Logical Operators
-- [ ] Randomisation
+- [X] Randomisation
 - [ ] Error Handling
-- [ ] Functions
-- [ ] For Loops
-- [ ] Code blocks and Indentation
-- [ ] While Loops
-- [ ] Flowchart Programming
-- [ ] Positional and Keyword Arguments
-- [ ] Python Dictionaries and Lists
-- [ ] Nested Collections
-- [ ] Returning Functions
-- [ ] Return vs. Print
-- [ ] Doc Strings vs. Comments
+- [X] Functions
+- [X] For Loops
+- [X] Code blocks and Indentation
+- [X] While Loops
+- [X] Flowchart Programming
+- [X] Positional and Keyword Arguments
+- [X] Python Dictionaries and Lists
+- [X] Nested Collections
+- [X] Returning Functions
+- [X] Return vs. Print
+- [X] Doc Strings vs. Comments
 - [ ] Scope and Local/Global Variables
 - [ ] Debugging Techniques
 - [ ] B E G I N N E R   P Y T H O N   C O M P L E T E D
