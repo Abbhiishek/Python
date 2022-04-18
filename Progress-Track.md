@@ -7,14 +7,14 @@
 - [ ] Update the website
 - [ ] Contact the media
 - [X] Input and Print Functions
-- [ ] Variable Naming Rules
+- [X] Variable Naming Rules
 - [X] Mathematical Operations in Python
 - [X] DataTypes
 - [X] Converting types
 - [X] Conditionals IF/ELIF/ELSE
 - [X] Logical Operators
 - [X] Randomisation
-- [ ] Error Handling
+- [X] Error Handling
 - [X] Functions
 - [X] For Loops
 - [X] Code blocks and Indentation
