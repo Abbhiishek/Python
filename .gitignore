@@ -2,3 +2,5 @@ welcome.mp3
 Docs/
 .env
 .env
+
+__pycache__
