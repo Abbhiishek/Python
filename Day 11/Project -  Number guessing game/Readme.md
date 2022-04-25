@@ -127,6 +127,7 @@ def game():
 <img align="left" src="https://media0.giphy.com/media/1hMbkOaFfYmZvvEBq9/giphy.gif?cid=ecf05e4721d5x13ddc51ssm6l0d7j3bxxiy5yeyszz766rms&rid=giphy.gif&ct=ts" height=454>
 
 <br>
+
 ```python
 def game_loop():
     """run the game in loop until user quits"""
