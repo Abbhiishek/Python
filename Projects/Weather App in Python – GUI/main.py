@@ -1,6 +1,5 @@
 from tkinter import *
 import requests
-import json
 from datetime import datetime
 import os 
 from dotenv import load_dotenv
@@ -10,9 +9,9 @@ load_dotenv()
  
 root =Tk()
 root.geometry("400x400") #size of the window by default
-root.resizable(0,0) #to make the window size fixed
+root.resizable(0,0)  # to make the window size fixed
 #title of our window
-root.title("Weather App")
+root.title("Weather App  fd ")
  
  
 # ----------------------Functions to fetch and display weather info
@@ -90,7 +89,7 @@ inp_city = Entry(root, textvariable = city_value,  width = 24, font='Arial 14 bo
 Button(root, command = showWeather, text = "Check Weather", font="Arial 10", bg='lightblue', fg='black', activebackground="teal", padx=5, pady=5 ).pack(pady= 20)
  
 #to show output
- 
+
 weather_now = Label(root, text = "The Weather is:", font = 'arial 12 bold').pack(pady=10)
  
 tfield = Text(root, width=46, height=10)
