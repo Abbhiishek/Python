@@ -49,6 +49,7 @@ def process_coins():
     total += int(input("how many dimes?: ")) * 0.1
     total += int(input("how many nickles?: ")) * 0.05
     total += int(input("how many pennies?: ")) * 0.01
+
     return total
 
 
@@ -91,3 +92,11 @@ while is_on:
             payment = process_coins()
             if is_transaction_successful(payment, drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
+        else:
+            print("Sorry, we are out of stock.")
+            print("Please come back later.")
+            is_on = False
+
+print("Thank you for using our coffee machine.")
+print("Have a nice day!")
+
