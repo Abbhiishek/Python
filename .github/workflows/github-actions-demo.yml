@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Python 100Days of Code 
 on: [push]
 jobs:
   Explore-GitHub-Actions:
