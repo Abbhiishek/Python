@@ -20,8 +20,8 @@ class YouTubeDownloder:
         self.streamNo = 1
         for stream in self.youtube.streams.filter(file_extension='mp4'):
             print(
-                "{0} => resolution:{1} // type:{2} // fps:{3}".format(
-                    self.streamNo, stream.resolution,stream.type,stream.fps
+                "{0} => resolution:{1} // type:{2} //".format(
+                    self.streamNo, stream.resolution, stream.type
                 )
             )
             self.streamNo += 1
@@ -69,7 +69,7 @@ class YouTubeDownloder:
     def onProgress(stream=None, chunk=None, remaining=None):
         file_downloaded = file_size - (remaining / 1000000)
         print(
-            f"downloading ... {file_downloaded/file_size*100:0.2f} % [{file_downloaded:.1f}MB of {file_size:.1f}MB]",
+            f"downloading ... {file_downloaded / file_size * 100:0.2f} % [{file_downloaded:.1f}MB of {file_size:.1f}MB]",
             end="\r",
         )
 

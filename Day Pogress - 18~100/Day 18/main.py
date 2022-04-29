@@ -54,24 +54,24 @@ def draw_art():
     kachua.forward(100)
     draw_circle(kachua)
     kachua1.backward(100)
-    draw_circle(kachua1)
-    kachua1.left(100)
-    kachua1.forward(100)
-    draw_circle(kachua1)
+    # draw_circle(kachua1)
+    # kachua1.left(100)
+    # kachua1.forward(100)
+    # draw_circle(kachua1)
 
 
 
     window.exitonclick()
 
 
-# draw_art()
+draw_art()
 
 
 # create a turtle program that draw love
 
 
 def draw_love(some_turtle):
-    
+
         some_turtle.forward(100)
         some_turtle.right(90)
 

@@ -25,7 +25,7 @@ while cap.isOpened():
     for (a, b, c, d) in eyes:
         cv.rectangle(img, (a, b), (a + c, b + d), (255, 0, 0), 1)
 
-    cv.imshow("img", img)
+    cv.imshow("Face Detection ", img)
     c = cv.waitKey(1)
     if c == ord("q"):
         break

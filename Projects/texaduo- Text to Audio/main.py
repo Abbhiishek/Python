@@ -2,7 +2,7 @@
 from playsound import playsound
 from gtts import gTTS
 
-  
+
 def text_to_audio(content):
     # Enter the text in string format which you want to convert to audio
     mytext = content
@@ -11,7 +11,7 @@ def text_to_audio(content):
     language = "en"
 
     # Create an instance of gTTS class
-    myobj = gTTS(text=mytext, lang=language, slow=False,tld='co.in')
+    myobj = gTTS(text=mytext, lang=language, slow=False, tld='co.in')
 
     # Method to create your audio file in mp3 format
     myobj.save("welcome.mp3")
@@ -22,5 +22,6 @@ def text_to_audio(content):
     playsound('welcome.mp3')
     print('playing sound using  playsound')
 
-text=str(input("Enter: "))
+
+text = str(input("Enter: "))
 text_to_audio(text)
